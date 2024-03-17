@@ -176,14 +176,25 @@ section {
   margin: auto 0;
 }
 
+.section_pic-container {
+   
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+
 /* profile pic resizing */
 .section_pic-container .p { 
-    width: 300px;
-    height: 300px;
-    border-radius: 22.6%;
+   
+    width: 335px;
+    height: 335px;
+    border-radius: 50%;
+    justify-content: center;
 }
 
 .section__text {
+
   align-self: center;
   text-align: center;
 }
@@ -193,6 +204,7 @@ section {
 }
 
 .section__text__p1 {
+    
   text-align: center;
 }
 
@@ -284,6 +296,7 @@ section {
   .about-details-container {
     justify-content: center;
     flex-direction: column;
+    text-align: center;
   }
   
   .about-containers,
@@ -359,16 +372,16 @@ section {
 
   .article-container{
     display: flex;
-    text-align: initial;
+    text-align: start;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    column-gap: 2.5rem;
     justify-content: space-around;
   }
 
   article{
     display: flex;
-    width: 10rem;
+    width: 7rem;
     justify-content: space-around;
     gap: 0.5rem;
   }
@@ -391,7 +404,7 @@ section {
   .courses-img {
     border-radius: 2rem;
     width: 20%;
-    height: 30%
+    height: 30%;
 
   }
 
