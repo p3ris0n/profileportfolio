@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Promise Raji</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Promise Raji</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#courses" onclick="toggleMenu()">Courses</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img class="p" src="./assets/profile-pic.jpg" alt="Promise Raji profile Picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Promise Raji</h1>
+            <p class="section__text__p2">Machine Learning Engineer</p>
+            <div class="btn_container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/github.png" alt="My Github Page"
+                class="icon" onclick="location.href='https://github.com/p3ris0n'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1" Get To Know More></p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ Years <br />Algorithms Engineering</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>O'Level Certification Degree</p>
+                    </div>
+                </div>
+                <div class="test-container" style="margin-bottom: 2rem;">
+                    <p>A.I. & ML, Audiophile • Philosophy • former Data Structures & Algos intern @capriquota and 
+                        @firstpavilionng
+                         • Kickboxing • Blockchain dev. 
+                        I am currently a student of the presitigous institute of advanced learning which is the Federal University of Technology, Minna and I dream to become the top 1% of the top 1%.</p>
+                    <p>
+
+                    </p>
+                </div>
+                <div></div>
+                <div class="btn_container">
+                    <button class="btn btn-color-3" onclick="location=href='https://futminna.edu.ng/'">My School</button>
+                    <button class="btn btn-color-3" onclick="location=href='https://www.w3schools.com/tags/'">Assignment</button>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Algorithms Engineering</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Django</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Numpy</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>MATLAB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>DSA</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="details-container" style="text-align: center;">
+                    <h2 class="experience-sub-title">Frontend</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="experience-sub-title">Backend</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Django</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#courses'"/>
+    </section>
+    <section id="courses">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Courses</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.jpg" alt="my courses" class="courses-img"/>
+                </div>
+                <h2 class="experience-sub-title courses">Courses</h2>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 courses-btn" onclick="window.open('./assets/courses.pdf')">
+                        View
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:isaacsamson88@gmail.com">isaacsamson88@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/github.png"
+              alt="Github icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.github.com/p3ris0n">Github</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Promise Raji. All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
